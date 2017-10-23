@@ -244,10 +244,6 @@
       <div class="content">
         <h1 id='ctmatch4cc'>CTmatch4CC</h1>
 <p>This is the API documentation for the <a href="http://www.ci4cc.org/initiatives/ctmatch4cc">CTmatch4CC Initiative</a>. Any server that represents a registry supporting this initiative should be accessible using the following API methods.</p>
-
-<aside class="notice">
-The Forte-hosted server can be accessed at <tt>https://dev01.nimblify.com/nimblify-api-web/public/patients</tt>
-</aside>
 <h1 id='authentication'>Authentication</h1>
 <p>The CTmatch4CC endpoint is a public endpoint, so no further authorization is needed to access the registry data. Individual servers may rate-limit requests, so clients should check and react to an HTTP 429 status (Too Many Requests) response from the server.</p>
 <h2 id='patients'>Patients</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/patients?anatomical-site-desc=lung"</span>
