@@ -1,0 +1,3 @@
+<p>Client implementation of the <a href="http://www.ci4cc.org/initiatives/ctmatch4cc">CTmatch4CC</a> Initiative.</p>
+
+<p>Pulls information from the <a href="https://clinicaltrialsapi.cancer.gov/">NCI Clinical Trials API</a> for a particular trial, and then uses that trial&#39;s information to query the Forte patient registry to find out numbers of potential subjects for that trial.</p>
