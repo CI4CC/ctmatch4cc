@@ -3,10 +3,10 @@ GEM
   specs:
     activesupport (>= 5.2.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (~> 0.8.0)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.0)
+    addressable (2.8.0)
       public_suffix (~> 2.0, >= 2.0.2)
     autoprefixer-rails (6.6.1)
       execjs
@@ -95,7 +95,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (~> 1.9.24)
-    redcarpet (3.4.0)
+    redcarpet (3.5.1)
     rouge (2.0.7)
     sass (3.4.23)
     servolux (0.12.0)
